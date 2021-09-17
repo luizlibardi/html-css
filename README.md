@@ -16,3 +16,8 @@ Aulas de HTML 5 e CSS 3 do canal Curso em Video
 -   013: CSS com Estilos Inline
 -   014: CSS com Estilos Internos
 -   015: CSS com Estilos Externos
+
+## Desafios
+-   005: Meu Perfil Social
+-   006: Tags em HTML
+-   009: Página de Vídeos

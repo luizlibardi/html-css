@@ -36,7 +36,7 @@ nav > a {
 
 p {
     text-indent: 20px;
-    margin: 20px 20px 20px 20px;
+    margin: 20px;
 }
 
 h1, h2 {
@@ -124,4 +124,5 @@ section.extra {
     margin: 15px;
     background-color: #C5EBD6;
     border-radius: 10px;
+    box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.274);
 }

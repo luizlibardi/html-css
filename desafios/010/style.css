@@ -19,6 +19,7 @@ header {
     width: 100%;
     background-image: linear-gradient(to bottom, #3DDC84, #2FA866, #063D1E);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+    height: 150px;
 }
 
 nav {
@@ -50,7 +51,11 @@ h1, h2 {
     text-align: center;
     text-indent: 0px;
     color: white;
-    padding: 10px;
+    padding: 2.5px;
+}
+
+p.principal {
+    margin: 20px 20px 0px 20px;
 }
 
 h1.principal {
@@ -108,19 +113,24 @@ section.video > iframe{
     width: 90%;
     height: 90%;
 }
-h1#extra{
+h3#extra{
     font-family: Arial;
     color: white;
     font-size: 16px;
     background-color: #2FA866;
     border-radius: 10px 10px 0px 0px;
 }
-ul {
-    position: relative;
-    display: inline-block;
+aside > ul {
+    list-style-type: '\2714\00A0';
+    list-style-position: inside;
+    columns: 2;
 }
 
-section.extra {
+a.externo::after {
+    content: '\00A0\1F517'
+}
+
+aside {
     margin: 15px;
     background-color: #C5EBD6;
     border-radius: 10px;
